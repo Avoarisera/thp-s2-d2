@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]
 
 def jean_michel_data(str, dict)
@@ -7,10 +6,13 @@ def jean_michel_data(str, dict)
     s = str.split(" ")
 
     dict.each do |d|
-        count[d] = 0
         s.each do |v|
-            if v.include? d
-                count[d] += 1
+            if v.upcase.include? d.upcase
+                if count[d] == nil
+                    count[d] = 1
+                else
+                    count[d] += 1
+                end
             end
         end
     end
