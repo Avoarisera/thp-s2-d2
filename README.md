@@ -1,4 +1,5 @@
 # Groupe Sayna: Itokiana and Cedric
-- Somme des multiples de 3 et 5 : done
-- chiffre de cesar : done
-- trader picker : done
+- Somme_des_multiples_de_3_et_5 : done
+- chiffre_de_cesar : done
+- trader_picker : done
+- Compter_les_mots : done
