@@ -60,3 +60,4 @@ stock_picker2 = trader_du_lundi([
 ])
 
 puts "[#{stock_picker2[0]},#{stock_picker2[1]}]"
+
