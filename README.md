@@ -3,3 +3,4 @@
 - chiffre_de_cesar : done
 - trader_picker : done
 - Compter_les_mots : done
+- Compter_les_mots_bis : done
