@@ -3,6 +3,7 @@ def trader_du_dimanche(t)
     x = 0
     y = 0
     r = []
+    
     t.each_index do |i|
         if a > (t[i] + i)
             a = t[i]
